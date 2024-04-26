@@ -4,7 +4,7 @@
     "slug": "PhotoSmash",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/photoSmash.png",
+    "icon": "./assets/icon_photosmash.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/photoSmash.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.henorch.PhotoSmash"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "549e3b4f-cabe-4fba-a07a-85f3bb51ba9c"
+      }
     }
   }
 }
